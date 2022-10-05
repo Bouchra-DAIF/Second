@@ -1,0 +1,13 @@
+def my_function () :
+  print("Question 1")
+  MV1 = input("Entrez la masse volumique de la partie inférieur: ")
+  MV2 = input ("Entrez la masse volumique de la partie supérieur: ")
+  try:
+    MV1 = float(MV1)
+    MV2= float(MV2)
+    MV=1000
+    min = (MV1-MV)//(MV-MV2)
+    print("La valeur minimale de h1/h2 est ", min)
+  except:
+     print("eréreur")
+my_function 
